@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #faf0ca;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  margin-bottom: 150px;
+  height: 500px;
+  width: 500px;
+}
+
+button {
+  border: 0;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  background-color: #69b0a7;
+  height: 40px;
+  padding: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.accendiSpengni {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 90px;
+}
+
+.selezionareTipoCaffe {
+  width: 100%;
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  border-radius: 40px;
+  border: 1px solid black;
+}
+
+.cialda {
+  background-color: #9ea8b4;
+  border-radius: 130px;
+}
+
+
+
+.onOff {
+  background-color: red;
+}
+
+.riempireSerbatoio {
+  background-color: #049ce8;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.acqua {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 40px;
+  margin-left: 400px;
+}
+
+.livelloSerbatoio {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #049ce8;
+  border-radius: 40px;
+   color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.avvisi{
+ text-align: center;
+height: 50px;
+}
+.output-caffe{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tazza {
+  height: 210px;
+  width: 220px;
+  border: 10px solid #030303;
+  position: absolute !important;
+  transform: translate(-50%, -50%);
+ 
+  border-radius: 20px 20px 60px 60px;
+
+ 
+}
+.tazza::before{
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 60px;
+  border: 10px solid #030303;
+  border-left: none;
+  right: -70px;
+  top: 30px;
+  border-radius: 0 30px 80px 0;
+}
+.tazza::after{
+  position: absolute;
+  content: "";
+  height: 10px;
+  width: 300px;
+  background-color: #030303;
+  left: -45px;
+  bottom: -10px;
+  border-radius: 10px;
+}
+.coffeeCorto{
+  height: 90px;
+  width: 201px;
+  background-color: #6f4e37 ;
+  border: 10px solid transparent;
+  border-radius: 5px 5px 50px 50px;
+  position: absolute;
+ bottom: 0;
+}
+.coffeeLungo{
+  height: 170px;
+  width: 201px;
+  background-color: #6f4e37 ;
+  border: 10px solid transparent;
+  border-radius: 5px 5px 50px 50px;
+  position: absolute;
+ bottom: 0;
+
+}
+
+
+span{
+  margin-top: 0;
+  margin-right: 190px;
+}
